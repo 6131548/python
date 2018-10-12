@@ -1,0 +1,20 @@
+特点
+高阶动态变成语言
+面向对象编程
+丰富的库
+
+LINUX centos7自带PYTHON2.7版本
+python //初始命令
+print 'hello  world' //输出文本
+exit()//结束语句
+touch 1.py/创建PY文本
+编辑文本内容第一行时#！/usr/bin/python 这样执行文件可以用 .1/文件名 
+import py_cimpile
+py_compile.compile(1.py) //编译1.py,会生成一个1.pyc文件
+优化:
+python -O -m py_compile 1.py
+这样会生成一个1.pyo的文件 ，注意o 是大写
+
+python 变量
+a = 1 //变量赋值
+id(a) //变量地址
