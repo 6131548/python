@@ -1,0 +1,57 @@
+序列
+() []
+列表 元组和字符串都是序列
+len()//字符串长度
+str='ab' b= str*2 // b='abab' 字符串重复2次
+in 的用法
+'b' in 'abc' //返回true
+'d' in 'abc' //返回false
+max() min()的用法 
+num = '12345'
+max(num) //返回5
+min(num) //返回1
+cmp()的用法 //比较长度，值
+cmp('123','1') //返回1
+cmp('123','1234') 返回-1
+cmp('123','123') 返回0
+
+元组() //类型tuple
+t=('andy',30,'man')
+t[0] //'andy'
+t[1] //30
+t[2] //'man'
+name,age,sex=('java',30,'man')
+name //'java'
+age //30
+sex //'man'
+
+序列-列表 //type list
+li=['java',30,'sex']
+li[0] //'java' 和元组一样
+取值 //切片和索引
+添加
+li.append('123')
+删除
+li.remove()
+del()
+del(li[3])
+
+帮助 help()
+
+
+对象和类
+
+
+PYTHON 数据类型
+字典 存储数据的方式{} 哈希表
+zip()遍历
+dic={0:0,1:1}
+dict(['x',1],['y',2])//dict()工厂方法
+循环
+for k in dict //for k in 字典名
+
+
+
+
+
+
