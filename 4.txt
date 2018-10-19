@@ -1,0 +1,10 @@
+、、if语句
+a=1
+if a>2:
+    print "ok
+elif a <2:
+print "a<2"
+else:
+  print "no"
+ 
+    
