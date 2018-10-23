@@ -6,5 +6,41 @@ elif a <2:
 print "a<2"
 else:
   print "no"
- 
+
+for 循环
+语法 for iterating-bar in sequence:
+        statements(s)
+for k in "abc" :
+    print "hello"
+    
+range(i,j[,步进值])
+ i 初始值 不选默认为0 
+ j 终止值
+
+遍历序列
+a ={1:100,2:200,3:300}
+for k,v in a.items():
+    print k
+    print v
+
+循环控制
+
+    break 结束循环
+    continue 跳过档次循环
+    pass //站位 代码桩
+    exit() //跳出循环
+   else
+   while 循环
+    语法
+    while wxpression:
+        statement(s)
+        break 结束循环
+        continue 跳过档次循环
+    else    
+    
+    
+    函数
+    def 函数名():
+        //业务逻辑
+        
     
