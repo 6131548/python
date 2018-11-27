@@ -1,0 +1,64 @@
+//快速定义单行的最小函数,是从LISP借用来的，可以放在任何需要函数的地方
+g = lambda x:x**2
+reduce //
+l=range(1.6)
+reduce(lambda x,y:x*y ,l)
+
+switch 编写多分枝结构的程序 类似 IF ..ELSE语句
+语句表达更清晰，代码可读性更高
+python可以通过字典实现SWITCH语句的功能
+实现方法氛围两步
+-首先，定义一个字典
+-其次，调用字典的GET（）获取相应的表达式
+引入计算模块
+from __future__ import division
+//例子开始
+def add(x,y):
+	return x+y
+
+abc={"+":add}
+def f(x,y,o):
+	print abc.get(o)(x,y)
+f(4,6,"+")
+//例子结束
+
+//内建函数
+len()//返回长度
+abs()//返回绝对值
+max()
+min()
+divmod()//商模
+pow(x，y)/x的Y次幂
+round()//返回浮点数
+callable(min)//判断里面函数是否可悲调用
+type()//返回类型
+isinstancel(l,list)//判断类型，比如判断l是不是一个列表
+cmp()//比较两个字符串是不是一样
+cmp('hello','hello)//一样就是0
+range()//生成一个序列
+xrange()//效率更高，生成一个对象
+
+处理字符串处理的函数
+str.capitalize()//首字母大写 如"hell".capitalize() 返回的是Hell
+
+str.replace()//替换 
+s = "hello"
+s.replace("h","g")返回gello
+str.replace("x","y",n)//把第str中第N个X替换成y
+
+str.split()//切割
+ip ="192.168.1.101"
+ip.split(".") //得到一个列表['192', '168', '1', '101']
+ip.split(".",1) //得到 ['192', '168.1.1']
+
+序列处理函数
+filter()//过滤
+l=range(10)
+def f(x): 
+    if x>5:
+        return True
+filter(f,l)
+zip()//元组合并
+map()//元组合并
+reduce()
+
