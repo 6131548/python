@@ -1,0 +1,9 @@
+模块名与文件名相同
+improt cal //先防御引入了cal.py文件
+cal.f()//使用cal中f()的函数的方法
+内置属性
+__name__
+包
+创建一个__init__.py
+improt as
+from cal improt jia
