@@ -1,0 +1,8 @@
+ajango-admin
+startprooject //创建项目
+startapp//创建应用
+check 
+runserver
+test//单元测试
+shell
+make
