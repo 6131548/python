@@ -1,0 +1,10 @@
+python manage.py shell
+ from blog.models import Article
+a = Article ()
+a.title="ss"
+a.save()
+
+//查询数据库
+articles = Article.objects.all()
+article = articles[0]
+print(article.title)//文章title
