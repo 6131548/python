@@ -1,0 +1,8 @@
+python manage.py createsuperuser //创建管理员
+/引入明星
+from .models import Article
+注册号文章
+admin.site.register(Article)
+在models.py模型内下面加入下面函数 让文章标题（ title）显示出来
+    def __str__(self):
+        return self.title  
