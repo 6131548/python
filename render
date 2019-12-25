@@ -1,0 +1,18 @@
+from django.shortcuts import render //
+from django.core.paginator import Paginator //分页
+path('detail/<int:article_id>', blog.views.get_detail_page) //路由
+page = request.GET.get('page')//获取get参数
+
+//获取分页信息
+paginator = Paginator(all_article, 6)
+page_num = paginator.num_pages
+page_article_list = paginator.page(page)//分页里面的数组
+以下是分页分页模板信息
+{% for article in top10_article_list %}
+         <h4><a href="/blog/detail/{{article.article_id}}">{{ article.title }}</a></h4>
+{% endfor %}
+
+for index, article in enumerate(all_article): //迭代器
+  print(index)
+  
+  
